@@ -1,5 +1,5 @@
 ---
-- hosts: 10.102.82.231
+- hosts: webservers
   gather_facts: yes
   become: yes
   roles:
